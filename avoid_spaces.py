@@ -1,0 +1,10 @@
+input_string = input("Enter a string: ")
+input_string_without_spaces = input_string.replace(" ", "")
+length_without_spaces = len(input_string_without_spaces)
+print("Length of the string without spaces:", length_without_spaces)
+
+input_string = input("Enter a string: ")
+words = input_string.split()
+string_without_spaces = "".join(words)
+length_without_spaces = len(string_without_spaces)
+print("Length of the string without spaces:", length_without_spaces)
